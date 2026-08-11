@@ -80,7 +80,7 @@ const Loader = ({onLoadingComplete}: LoaderProps) => {
 
   return (
     <div ref={loaderRef} className="fixed inset-0 bg-white z-100 flex items-center justify-center overflow-hidden">
-        <h1 ref={titleRef} className="text-black text-[10vw] font-bold tracking-wider">
+        <h1 ref={titleRef} className="text-black text-[10vw] font-bold tracking-wider uppercase">
             {splitText('StudioSize')}
         </h1>
     </div>
